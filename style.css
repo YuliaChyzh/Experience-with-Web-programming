@@ -1,0 +1,272 @@
+﻿@font-face {
+    font-family: "Playfair Display SC";
+    src: url("fonts/PlayfairDisplaySC-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Mobilemenu {
+	display: none;
+}
+
+body {
+    width: 100%;
+}
+
+div{
+  font-size: 20px;
+}
+body {
+  display:flex;
+  flex-direction:column;
+}
+header{
+  border: 1px solid black;
+  background-color: #ccc;
+  height: 150px;
+  background: url('images/header-title5.jpg') no-repeat center bottom;
+  font-size: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+footer{
+  border: 1px solid black;
+  background-color: #ccc;
+  height:50px;
+  text-align: center;
+  vertical-align: middle;
+}
+#big_block {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  height: 650px;
+  display:flex;
+  flex-direction:row;
+}
+#half1_of_bigblock {
+  width: 60%;
+  height: 100%;
+  display:flex;
+  flex-direction:column;
+}
+
+#half2_of_bigblock {
+  width: 40%;
+  height: 100%;
+  display:flex;
+  flex-direction:row;
+}
+#part_of_half1 {
+  height: 25%;
+  width: 100%;
+  display:flex;
+  flex-direction:row;
+  background: #C0D8FC;
+}
+#content {
+  border-left: 1px solid black;
+  width: 100%;
+  height: 75%;
+  background: #F7F7C9;
+}
+#part_of_half2 {
+  border-right: 1px solid black;
+  height: 100%;
+  width: 35%;
+  background: #C0D8FC;
+}
+#menu{
+  height: 100%;
+  width: 65%;
+  font-size: 50px;
+  background-color: #E0D1F0;
+  color:
+  text-align: center;
+}
+#small1 {
+  height: 100%;
+  width: 70%;
+}
+#small2 {
+  height: 100%;
+  width: 30%;
+}
+q {
+  font-family: Times, serif; /* Шрифт с засечками */
+  font-style: italic; /* Курсивное начертание текста */
+  color: #008; /* Цвет текста */
+}
+#menu p{
+  color: #16042A;
+}
+#navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+}
+#navbar a {
+  background-color: #949494;
+  color: #fff;
+  padding: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-left: 5px solid #33ADFF;
+  display: block;
+}
+#navbar li {
+  border-left: 10px solid #666;
+  border-bottom: 1px solid #666;
+}
+
+#content p {
+	padding: 20px;
+}
+
+#content img {
+	padding-left: 10px;
+}
+
+@media only screen and (max-device-width: 768px){
+	#menu {
+		display: none;
+	}
+	
+	#part_of_half2 {
+		width: 100%;
+	}
+	
+	#half1_of_bigblock {
+	  width: 70%;
+	}
+
+	#half2_of_bigblock {
+	  width: 30%;
+	}
+	
+	.Mobilemenu {
+		display: block;
+		background-color: #949494;
+		border-right: 1px solid black;
+		border-left: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+	
+	.navbar {
+		width: 31%;
+		float: left;
+		text-align: center;
+		height: 40px;
+		
+		vertical-align: middle;
+		line-height: 40px;
+		
+		background-color: #949494;
+	    color: #fff;
+	    padding: 20px;
+	    font-weight: bold;
+	}
+	
+	#navbar1 {
+		width: 200px;
+		float: left;
+		text-align: center;
+		height: 40px;
+		
+		vertical-align: middle;
+		line-height: 40px;
+		
+		background-color: #949494;
+	    color: #fff;
+	    padding: 20px;
+	    font-weight: bold;
+	}
+	
+	a{
+		color: white;
+		text-decoration: none;
+	}
+	
+	.decorate {
+		float: left;
+		width: 1%;
+		height: 80px;
+		background-color: #33ADFF;
+	}
+	
+	.afterFloat {
+		clear: left;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#menu {
+		display: none;
+	}
+	
+	#part_of_half2 {
+		width: 100%;
+	}
+	
+	#half1_of_bigblock {
+	  width: 70%;
+	}
+
+	#half2_of_bigblock {
+	  width: 30%;
+	}
+	
+	.Mobilemenu {
+		display: block;
+		background-color: #949494;
+		border-right: 1px solid black;
+		border-left: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+	
+	.navbar {
+		width: 20%;
+		float: left;
+		text-align: center;
+		height: 40px;
+		
+		vertical-align: middle;
+		line-height: 40px;
+		
+		background-color: #949494;
+	    color: #fff;
+	    padding: 20px;
+	    font-weight: bold;
+	}
+	
+	#navbar1 {
+		width: 200px;
+		float: left;
+		text-align: center;
+		height: 40px;
+		
+		vertical-align: middle;
+		line-height: 40px;
+		
+		background-color: #949494;
+	    color: #fff;
+	    padding: 20px;
+	    font-weight: bold;
+	}
+	
+	a{
+		color: white;
+		text-decoration: none;
+	}
+	
+	.decorate {
+		float: left;
+		width: 1%;
+		height: 80px;
+		background-color: #33ADFF;
+	}
+	
+	.afterFloat {
+		clear: left;
+	}
+}
