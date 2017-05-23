@@ -3,6 +3,7 @@
   flex-direction:row;
 }
 #rectangle {
+  position: relative;
   margin: 2%;
   width: 30%;
   height: 300px;
@@ -12,7 +13,8 @@
   text-align: center;
   color: #000000;
 }
-#rectangle1 {
+.rectangle1 {
+  position: relative;
   margin: 2%;
   width: 30%;
   height: 300px;
@@ -22,4 +24,3 @@
   text-align: center;
   color: #ED0714;
 }
-

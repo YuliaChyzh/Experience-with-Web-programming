@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Playfair Display SC";
+    src: url("fonts/PlayfairDisplaySC-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+header{
+  border: 1px solid black;
+  background-color: #ccc;
+  height: 150px;
+  background: url('images/header-title5.jpg') no-repeat center bottom;
+  font-size: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+footer{
+  border: 1px solid black;
+  background-color: #ccc;
+  height:50px;
+  text-align: center;
+  vertical-align: middle;
+}
+body {
+    background: #E2E1E9;;
+    font-family: "Lato";
+    font-weight: 250;
+    font-size: 18px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+a {
+    color: #f85c37;
+}
+a:hover, a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+}
+button {
+    outline: 0;
+    outline-offset: 0;
+}
+.Feedback {
+    border-radius: 20px;
+    border: 10px solid #B6B1B1;
+    padding: 20px;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2%;
+}
+
+input,select {
+    width: 180px;
+    padding: 8px 8px 8px 36px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #363636;
+
+    outline: 0;
+    outline-offset: 0;
+}
+
+select {
+  margin-top: 10px;
+  font: 16px;
+  height: 40px;
+  width: 250px;
+}
+
+.codeCountry {
+    position: relative;
+    display: inline-block;
+}
+
+.codeCountry:before {
+    content: "+38";
+    display: block;
+    height: 30px;
+    color: #363636;
+    position: absolute;
+    top: 9px;
+    left: 7px;
+    font-size: 16px;
+}
+
+.uncorrect {
+    display: none;
+    font-family: 'Bitter', serif;
+    color: #F13131;
+}
+
+.comment {
+    border-radius: 10px;
+    border: 2px solid #B6B1B1;
+
+    min-height: 40%;
+    min-width: 70%;
+    max-width: 100%;
+
+    outline: 0;
+    outline-offset: 0;
+}

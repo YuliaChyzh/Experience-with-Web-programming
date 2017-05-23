@@ -127,15 +127,31 @@ q {
 	padding-left: 10px;
 }
 
+.buttonfeedback {
+    cursor:pointer;
+    display:block;
+    background-color: #FFC0CB;
+    height:50px;
+    width:100px;
+    line-height:70px;
+    vertical-align: middle;
+    text-align:center;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 100px;
+    font-style: oblique;
+}
+
 @media only screen and (max-device-width: 768px){
 	#menu {
 		display: none;
 	}
-	
+
 	#part_of_half2 {
 		width: 100%;
 	}
-	
+
 	#half1_of_bigblock {
 	  width: 70%;
 	}
@@ -143,7 +159,7 @@ q {
 	#half2_of_bigblock {
 	  width: 30%;
 	}
-	
+
 	.Mobilemenu {
 		display: block;
 		background-color: #949494;
@@ -151,49 +167,49 @@ q {
 		border-left: 1px solid black;
 		border-bottom: 1px solid black;
 	}
-	
+
 	.navbar {
 		width: 31%;
 		float: left;
 		text-align: center;
 		height: 40px;
-		
+
 		vertical-align: middle;
 		line-height: 40px;
-		
+
 		background-color: #949494;
 	    color: #fff;
 	    padding: 20px;
 	    font-weight: bold;
 	}
-	
+
 	#navbar1 {
 		width: 200px;
 		float: left;
 		text-align: center;
 		height: 40px;
-		
+
 		vertical-align: middle;
 		line-height: 40px;
-		
+
 		background-color: #949494;
 	    color: #fff;
 	    padding: 20px;
 	    font-weight: bold;
 	}
-	
+
 	a{
 		color: white;
 		text-decoration: none;
 	}
-	
+
 	.decorate {
 		float: left;
 		width: 1%;
 		height: 80px;
 		background-color: #33ADFF;
 	}
-	
+
 	.afterFloat {
 		clear: left;
 	}
@@ -203,11 +219,11 @@ q {
 	#menu {
 		display: none;
 	}
-	
+
 	#part_of_half2 {
 		width: 100%;
 	}
-	
+
 	#half1_of_bigblock {
 	  width: 70%;
 	}
@@ -215,7 +231,7 @@ q {
 	#half2_of_bigblock {
 	  width: 30%;
 	}
-	
+
 	.Mobilemenu {
 		display: block;
 		background-color: #949494;
@@ -223,49 +239,49 @@ q {
 		border-left: 1px solid black;
 		border-bottom: 1px solid black;
 	}
-	
+
 	.navbar {
 		width: 20%;
 		float: left;
 		text-align: center;
 		height: 40px;
-		
+
 		vertical-align: middle;
 		line-height: 40px;
-		
+
 		background-color: #949494;
 	    color: #fff;
 	    padding: 20px;
 	    font-weight: bold;
 	}
-	
+
 	#navbar1 {
 		width: 200px;
 		float: left;
 		text-align: center;
 		height: 40px;
-		
+
 		vertical-align: middle;
 		line-height: 40px;
-		
+
 		background-color: #949494;
 	    color: #fff;
 	    padding: 20px;
 	    font-weight: bold;
 	}
-	
+
 	a{
 		color: white;
 		text-decoration: none;
 	}
-	
+
 	.decorate {
 		float: left;
 		width: 1%;
 		height: 80px;
 		background-color: #33ADFF;
 	}
-	
+
 	.afterFloat {
 		clear: left;
 	}

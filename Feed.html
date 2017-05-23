@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Фотогалерея/Зворотній зв'язок</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vilka.com</title>
+    <link rel="stylesheet" type="text/css" href="mainFeed.css">
+</head>
+
+
+<body>
+	<header>
+		Фотогалерея
+	</header>
+
+    <div class="Feedback">
+    	<form method="post" id="form">
+				<label for="name">Ім'я:</label>
+				<input type="text" name="name" placeholder="Ім'я" id="name" /> <br /> <br />
+				<label for="email">E-mail:</label>
+				<input type="text" name="email" placeholder="E-mail" id="email" /> <br /> <br />
+				<label for="tel">Номер телефону:</label>
+				<div class="codeCountry"><input type="text" name="tel" placeholder="(___) ___ __ __" id="user_phone"/></div> <br /> <br />
+				<label for="hour">Час доставки:</label>
+				<div class="time"><select name="hourSelect"> <option>Виберіть час доставки</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+					</select>
+				</div> <br /> <br />
+
+			</form> <br />
+
+			<button class="btn_submit">Send</button>
+
+			<div class="uncorrect tel">
+					Your number is uncorrect!
+			</div>
+
+			<div class="uncorrect email">
+					Your e-mail is uncorrect!
+			</div>
+
+			<div class="uncorrect letter">
+					Your first letter in name is uncorrect!
+			</div>
+
+    </div>
+
+		<footer>
+			<address>
+				<p>Виконала студентка групи ІП-54 <a href="mailto:yulia_yulia01@ukr.net">Чиж Юлія</a>.</p>
+			</address>
+		</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="jquery.maskedinput.min.js"></script>
+
+</body>
+</html>
