@@ -63,6 +63,19 @@ input,select {
     outline-offset: 0;
 }
 
+.submit {
+  width: 180px;
+  padding: 8px 8px 8px 8px;
+  height: 35px;
+  margin: 0;
+  background-color: #90EE90;
+}
+
+.submit:show_site,show_gallery{
+  float:right;
+}
+
+
 select {
   margin-top: 10px;
   font: 16px;
@@ -92,7 +105,7 @@ select {
     color: #F13131;
 }
 
-.comment {
+/*.comment {
     border-radius: 10px;
     border: 2px solid #B6B1B1;
 
@@ -102,4 +115,4 @@ select {
 
     outline: 0;
     outline-offset: 0;
-}
+}*/
